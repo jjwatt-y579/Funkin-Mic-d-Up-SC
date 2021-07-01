@@ -103,7 +103,7 @@ class Note extends FlxSprite
 					updateHitbox();
 
           //FUCKING REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE THIS IS ONLY FOR NEW NOTES
-				default:
+				case '':
 					frames = Paths.getSparrowAtlas('NOTE_assets', 'shared');
 
 					animation.addByPrefix('greenScroll', 'green0');
